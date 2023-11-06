@@ -1,0 +1,162 @@
+:root {
+
+    --Primary-color: blueviolet;
+    --Secondary-color: #f5f2fe;
+    --tertiary-color: lightgray;
+    --box-shadow: 0 5px rgba(0, 0, 0, 0,3)
+    --forth-color: #F3F0FC;
+}
+
+
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 0;
+    
+}
+
+h1 {
+
+    font-size: 90px;
+    display: block;
+}
+
+h3 {
+    font-size: 24px;
+    opacity: 0.7;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+#info {
+    margin-left: 30px;
+    border-color: var(--Primary-color);
+    color: var(--Primary-color);
+    border-style: inset;
+    border-radius: 5px;
+    box-shadow: var(--b*ox-shadow);
+    background-color: var(--Secondary-color);
+    
+    
+    
+}
+
+#Contact-link {
+    margin-right: 20px;
+    background-color: var(--Primary-color);
+    border-color: var(--Primary-color);
+    border-radius: 5px;
+    
+}
+
+.links > a {
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+.links > a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 50px auto;
+}
+
+#navigation {
+    text-align: center;
+    display: block;
+}
+
+
+p {
+    background-color: var(--tertiary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.about-paragraph {
+    margin: 10px;
+    display: flex;
+    margin-left: 10px;
+    padding: 20px;
+    
+}
+
+.email-link {
+    text-align: center;
+    display: block;
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+/*Home-work 2*/
+
+.row {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.buttons >a {
+    background-color: var(--Primary-color);
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 3rem!important;
+
+}
+
+.buttons >a:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.para {
+    background-color: white;
+}
+
+#img {
+
+    
+    padding: 20px;
+    justify-content: center;
+    border-color: white;
+    border-style: outset 2px solid;
+    
+}
+ /* About Page*/
+  #nxt-page {
+    justify-content: space-between;
+    border-color: white;
+  }
+
+.about-paragraph {
+    background-color: white;
+    margin: 30px;
+    font-size: 18px;
+  }
