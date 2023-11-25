@@ -168,5 +168,12 @@ p {
 
 .socials {
     padding: 10px;
+    text-align: center;
+    justify-content: space-between;
+    text-decoration: none;
     
+}
+
+.socials li {
+    text-decoration: none;
 }
